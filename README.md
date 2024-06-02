@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Application Web Immersive
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+Ce projet est une application web fullstack conçue pour offrir une expérience utilisateur immersive. Elle est développée avec React.js pour le frontend et Django avec Django Rest Framework pour le backend. L'objectif de cette application est de démontrer les compétences en développement web et en design UX/UI.
 
-In the project directory, you can run:
+## Conception UX/UI (Figma)
 
-### `yarn start`
+Le design de l'application a été réalisé avec Figma. Vous pouvez visualiser les maquettes en suivant [ce lien](https://www.figma.com/file/xyz). Les éléments suivants ont été inclus dans le design :
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Écran d'accueil** : Une page d'accueil attrayante présentant les principales fonctionnalités de l'application avec des visuels captivants et un texte clair.
+- **Interaction/animation** : Des animations subtiles en réponse aux actions de l'utilisateur, telles que des transitions fluides lors du survol des boutons ou des liens, créant une expérience dynamique et engageante.
+- **Écran de feedback** : Des éléments de feedback visuel pour fournir des réponses claires aux actions de l'utilisateur, comme des messages de confirmation après une action réussie ou des messages d'erreur pour guider l'utilisateur en cas de problème.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation et Exécution de l'Application
 
-### `yarn test`
+### Prérequis
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Avant de commencer, assurez-vous d'avoir installé les logiciels suivants sur votre machine :
 
-### `yarn build`
+- Node.js et npm
+- Python et pip
+- Django
+- Django Rest Framework
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation du Frontend (React.js)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```sh
+# Accédez au dossier frontend
+cd frontend
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Installez les dépendances
+npm install
 
-### `yarn eject`
+# Démarrez le serveur de développement
+npm start
+# Accédez au dossier backend
+cd backend
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Créez un environnement virtuel
+python -m venv venv
+source venv/bin/activate   # Sur Windows, utilisez `venv\Scripts\activate`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Installez les dépendances
+pip install -r requirements.txt
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Appliquez les migrations de la base de données
+python manage.py migrate
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Démarrez le serveur backend
+python manage.py runserver
 
-## Learn More
+#Commandes Git
+#Cloner le Dépôt
+git clone https://github.com/MoussamihSoukaina/test.git
+# Ajoutez tous les fichiers modifiés
+git add .
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Effectuez un commit avec un message
+git commit -m "Description de vos modifications"
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Poussez les modifications vers le dépôt distant
+git push origin master
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#Structure du Projet
+frontend/ : Contient le code source du frontend développé avec React.js.
+backend/ : Contient le code source du backend développé avec Django et Django Rest Framework.
+```

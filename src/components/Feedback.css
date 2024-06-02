@@ -1,0 +1,14 @@
+/* Feedback.css */
+.feedback {
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 20px;
+}
+
+.feedback-success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+

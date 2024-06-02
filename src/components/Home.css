@@ -1,0 +1,37 @@
+/* src/components/Home.css */
+.home {
+     text-align: center;
+     padding: 50px;
+   }
+   
+   .main-content {
+     max-width: 800px;
+     margin: 0 auto;
+   }
+   
+   /* Home.css */
+.cta-buttons {
+  margin-top: 20px;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background-color: #2caf2c;
+}
+
+/* Nouvelle classe pour le deuxième bouton */
+.cta-button-secondary {
+  margin-left: 20px; /* Ajustez la marge gauche pour séparer les boutons */
+}
+
+
