@@ -6,7 +6,7 @@ Ce projet est une application web fullstack conçue pour offrir une expérience 
 
 ## Conception UX/UI (Figma)
 
-Le design de l'application a été réalisé avec Figma. Vous pouvez visualiser les maquettes en suivant [ce lien](https://www.figma.com/file/xyz). Les éléments suivants ont été inclus dans le design :
+Le design de l'application a été réalisé avec Figma. Vous pouvez visualiser les maquettes en suivant[ [ce lien](https://www.figma.com/file/xyz). ](https://www.figma.com/design/4pRoAuBH1leTqOCvD8YjL2/Untitled?node-id=0-1&t=eDEksFX0MjHcAIy4-0)Les éléments suivants ont été inclus dans le design :
 
 - **Écran d'accueil** : Une page d'accueil attrayante présentant les principales fonctionnalités de l'application avec des visuels captivants et un texte clair.
 - **Interaction/animation** : Des animations subtiles en réponse aux actions de l'utilisateur, telles que des transitions fluides lors du survol des boutons ou des liens, créant une expérience dynamique et engageante.
