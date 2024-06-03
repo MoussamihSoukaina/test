@@ -63,6 +63,8 @@ git commit -m "Description de vos modifications"
 git push origin master
 
 #Structure du Projet
+#Un lien de démo
 frontend/ : Contient le code source du frontend développé avec React.js.
+Web Interface                 http://127.0.0.1:4040                                                                     Forwarding                    https://7f68-105-71-135-202.ngrok-free.app -> http://localhost:3000    
 backend/ : Contient le code source du backend développé avec Django et Django Rest Framework.
-```
+Web Interface                 http://127.0.0.1:4040                                                                     Forwarding                    https://e405-105-71-135-202.ngrok-free.app -> http://localhost:8000                                                                                                                              
